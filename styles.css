@@ -2,11 +2,14 @@
 
 body{
     font-family: 'Nunito Sans', sans-serif;
+    margin:0px;
 }
 
 :root{
     --primary-color: #fb7185;
-    --secondary-color:#fce7f3;
+    --dark-gray:#64748b;
+    --off-white:#e5e7eb;
+    
 }
 .container{
     padding-left: 1rem;
@@ -76,4 +79,47 @@ hr{
 .navigation .link-active{
     font-weight:bold;
 
+}
+
+/* .hero{
+    margin:auto;
+} */
+
+.span{
+color: var(--primary-color);
+}
+.hero-img{
+max-width: 500px;
+padding-top: 1rem ;
+/* text-align:center; */
+
+}
+
+.hero-header{
+    color:var(--dark-gray);
+}
+
+.section{
+ padding:2rem;
+}
+.section-ow{
+    background-color:var(--off-white);
+    padding:2rem;
+}
+
+.footer{
+background-color: var(--primary-color);
+color:white;
+padding:1rem;
+text-align: center;
+border-top-right-radius: 1rem;
+}
+
+.footer .footer-container{
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.footer .link{
+    color:white;
 }
