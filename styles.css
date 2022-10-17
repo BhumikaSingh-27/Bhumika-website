@@ -2,7 +2,7 @@
 
 body {
     font-family: 'Nunito Sans', sans-serif;
-    margin: 0px;
+    margin: 0px;  /*to remove default margin provided by browser*/
 }
 
 :root {
